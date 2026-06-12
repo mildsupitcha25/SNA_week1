@@ -1,10 +1,25 @@
 import streamlit as st
 import networkx as nx
 import matplotlib.pyplot as plt
+import matplotlib.font_manager as fm
 import json
 from pathlib import Path
 
 plt.rcParams["axes.unicode_minus"] = False
+
+# --- Thai font support ---
+FONT_PATH = Path(__file__).parent / "fonts" / "NotoSansThai-Regular.ttf"
+if FONT_PATH.exists():
+    fm.fontManager.addfont(str(FONT_PATH))
+    thai_font_name = fm.FontProperties(fname=str(FONT_PATH)).get_name()
+    plt.rcParams["font.family"] = thai_font_name
+else:
+    thai_font_name = None
+    st.warning(
+        "Thai font not found at fonts/NotoSansThai-Regular.ttf — "
+        "Thai labels in the graph may not render correctly. "
+        "Download Noto Sans Thai from Google Fonts and place it in a 'fonts' folder in your repo."
+    )
 
 st.set_page_config(page_title="SET50 Shareholder Relationship Graph", layout="wide")
 st.title("SET50 Shareholder Relationship Network")
@@ -18,104 +33,84 @@ def load_data():
 
 data = load_data()
 
-# Build a short label for each shareholder
-def short_label(name, max_len=20):
-    if len(name) <= max_len:
-        return name
-    # Use last word as short identifier
-    parts = name.strip().split()
-    if len(parts) >= 2:
-        return parts[-1][:max_len]
-    return name[:max_len]
-
-shareholder_label = {}
+# Build shareholder ID mapping (ASCII-only IDs)
+shareholder_info = {}
+sid_map = {}  # name -> sid
+sid = 1
 for item in data:
     n = item["name"]
-    if n not in shareholder_label:
-        shareholder_label[n] = short_label(n)
+    if n not in sid_map:
+        sid_map[n] = f"SH{sid:03d}"
+        shareholder_info[sid_map[n]] = {"full_name": n}
+        sid += 1
 
-# Build graph with short labels as node names
+# Build graph with ASCII node names
 G = nx.Graph()
-shareholders = {}
+companies = set()
 
 for item in data:
     sym = item["symbol"]
     name = item["name"]
-    label = shareholder_label[name]
+    sh_id = sid_map[name]
     pct = item["percent"]
-
-    G.add_node(sym, type="company", full_name=sym)
-    G.add_node(label, type="shareholder", full_name=name)
-    G.add_edge(label, sym, weight=pct, percent=pct, full_name=name)
-
-    if label not in shareholders:
-        shareholders[label] = {"full_name": name, "companies": {}}
-    shareholders[label]["companies"][sym] = pct
+    companies.add(sym)
+    G.add_node(sym, type="company")
+    G.add_node(sh_id, type="shareholder")
+    G.add_edge(sh_id, sym, weight=pct, percent=pct)
 
 st.sidebar.header("Filters")
 min_pct = st.sidebar.slider("Minimum ownership %", 0.0, 50.0, 1.0, 0.5)
-
-companies = sorted([n for n, d in G.nodes(data=True) if d["type"] == "company"])
-sh_labels = sorted(shareholders.keys())
-
-selected_company = st.sidebar.selectbox("Filter by company", ["All"] + companies)
-selected_shareholder = st.sidebar.selectbox("Filter by shareholder", ["All"] + sh_labels)
+selected_company = st.sidebar.selectbox("Filter by company", ["All"] + sorted(companies))
+selected_sh = st.sidebar.selectbox("Filter by shareholder", ["All"] + sorted(shareholder_info.keys(),
+    key=lambda x: shareholder_info[x]["full_name"]))
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("Network Stats")
-st.sidebar.write(f"Total companies: {len(companies)}")
-st.sidebar.write(f"Total shareholders: {len(shareholders)}")
-st.sidebar.write(f"Total relationships: {len(data)}")
+st.sidebar.write(f"Companies: {len(companies)}")
+st.sidebar.write(f"Shareholders: {len(shareholder_info)}")
+st.sidebar.write(f"Relationships: {len(data)}")
 
-edges_to_keep = [
-    (u, v) for u, v, d in G.edges(data=True) if d["percent"] >= min_pct
-]
+edges_to_keep = [(u, v) for u, v, d in G.edges(data=True) if d["percent"] >= min_pct]
 H = G.edge_subgraph(edges_to_keep).copy()
 
-if selected_company != "All":
-    nodes_to_keep = {selected_company}
-    for n in H.neighbors(selected_company):
-        nodes_to_keep.add(n)
-    H = H.subgraph(nodes_to_keep).copy()
+if selected_company != "All" and selected_company in H:
+    ns = {selected_company} | set(H.neighbors(selected_company))
+    H = H.subgraph(ns).copy()
 
-if selected_shareholder != "All":
-    nodes_to_keep = {selected_shareholder}
-    for n in H.neighbors(selected_shareholder):
-        nodes_to_keep.add(n)
-    H = H.subgraph(nodes_to_keep).copy()
+if selected_sh != "All" and selected_sh in H:
+    ns = {selected_sh} | set(H.neighbors(selected_sh))
+    H = H.subgraph(ns).copy()
 
 col1, col2 = st.columns([2, 1])
 
 with col1:
     st.subheader("Relationship Graph")
-
     if H.number_of_nodes() == 0:
         st.info("No relationships match the current filters.")
     else:
         fig, ax = plt.subplots(figsize=(14, 10))
         pos = nx.spring_layout(H, seed=42, k=2, iterations=50)
 
-        company_nodes = [n for n, d in H.nodes(data=True) if d["type"] == "company"]
-        shareholder_nodes = [n for n, d in H.nodes(data=True) if d["type"] == "shareholder"]
+        cn = [n for n, d in H.nodes(data=True) if d["type"] == "company"]
+        sn = [n for n, d in H.nodes(data=True) if d["type"] == "shareholder"]
 
-        nx.draw_networkx_nodes(
-            H, pos, nodelist=company_nodes, node_color="#ff6b6b",
-            node_size=600, label="Companies", ax=ax
-        )
-        nx.draw_networkx_nodes(
-            H, pos, nodelist=shareholder_nodes, node_color="#4ecdc4",
-            node_size=300, label="Shareholders", ax=ax
-        )
+        nx.draw_networkx_nodes(H, pos, nodelist=cn, node_color="#ff6b6b", node_size=600, label="Companies", ax=ax)
+        nx.draw_networkx_nodes(H, pos, nodelist=sn, node_color="#4ecdc4", node_size=300, label="Shareholders", ax=ax)
 
         weights = [d["percent"] for _, _, d in H.edges(data=True)]
-        min_w, max_w = min(weights), max(weights)
-        edge_widths = [1 + 3 * (w - min_w) / (max_w - min_w + 0.001) for w in weights]
+        mn, mx = min(weights), max(weights)
+        ew = [1 + 3 * (w - mn) / (mx - mn + 0.001) for w in weights]
+        nx.draw_networkx_edges(H, pos, width=ew, alpha=0.5, edge_color="#888888", ax=ax)
 
-        nx.draw_networkx_edges(
-            H, pos, width=edge_widths, alpha=0.5, edge_color="#888888", ax=ax
-        )
-
-        nx.draw_networkx_labels(H, pos, font_size=7, ax=ax)
+        # Use Thai shareholder names for shareholder node labels, symbols for companies
+        labels = {
+            n: (shareholder_info[n]["full_name"] if d["type"] == "shareholder" else n)
+            for n, d in H.nodes(data=True)
+        }
+        label_kwargs = {"font_size": 7, "ax": ax}
+        if thai_font_name:
+            label_kwargs["font_family"] = thai_font_name
+        nx.draw_networkx_labels(H, pos, labels=labels, **label_kwargs)
 
         ax.legend(fontsize=10, loc="upper right")
         ax.set_title("SET50 Shareholder Relationships (edge width = ownership %)", fontsize=14)
@@ -123,31 +118,23 @@ with col1:
         st.pyplot(fig)
 
 with col2:
-    st.subheader("Top Shareholders")
-    all_items = []
-    for item in data:
-        all_items.append((item["name"], item["percent"], item["symbol"]))
-    all_items.sort(key=lambda x: x[1], reverse=True)
-
-    for name, pct, sym in all_items[:20]:
-        st.write(f"- {sym} ← {name}: **{pct:.2f}%**")
+    st.subheader("Top Ownership Stakes")
+    rows = sorted(data, key=lambda x: x["percent"], reverse=True)[:20]
+    for r in rows:
+        st.write(f"- {r['symbol']} ← {r['name']}: **{r['percent']:.2f}%**")
 
     st.markdown("---")
-    st.subheader("Hover Guide")
-    st.write("Shareholder labels in the graph are abbreviated. Full names:")
-    for label, info in list(shareholders.items())[:15]:
-        if label != info["full_name"]:
-            st.caption(f"**{label}** → {info['full_name']}")
+    st.subheader("Shareholder ID Map")
+    for sid, info in sorted(shareholder_info.items(), key=lambda x: x[1]["full_name"])[:20]:
+        st.caption(f"**{sid}** → {info['full_name']}")
 
     st.markdown("---")
     st.subheader("Most Connected Shareholders")
-    degree_centrality = nx.degree_centrality(H)
-    sh_centrality = {
-        n: v for n, v in degree_centrality.items()
-        if n in H.nodes and H.nodes[n].get("type") == "shareholder"
-    }
-    for name, cent in sorted(sh_centrality.items(), key=lambda x: x[1], reverse=True)[:10]:
-        st.write(f"- {name}: centrality = {cent:.3f}")
+    dc = nx.degree_centrality(H)
+    top_sh = sorted([(n, v) for n, v in dc.items() if n in H.nodes and H.nodes[n].get("type") == "shareholder"],
+                    key=lambda x: x[1], reverse=True)[:10]
+    for sid, cent in top_sh:
+        st.write(f"- {sid} ({shareholder_info.get(sid, {}).get('full_name', sid)}): centrality = {cent:.3f}")
 
     st.markdown("---")
     st.subheader("SNA Metrics")
@@ -158,20 +145,14 @@ with col2:
             st.write(f"Largest component size: {len(max(comps, key=len))}")
         if H.number_of_nodes() > 1:
             try:
-                diam = nx.diameter(H.subgraph(max(comps, key=len)))
-                st.write(f"Diameter (largest comp): {diam}")
+                st.write(f"Diameter (largest comp): {nx.diameter(H.subgraph(max(comps, key=len)))}")
             except nx.NetworkXError:
                 pass
 
     st.markdown("---")
-    st.subheader("Relationship Table")
-    table_data = []
-    for item in data:
-        if item["percent"] >= min_pct:
-            table_data.append({
-                "Company": item["symbol"],
-                "Shareholder": item["name"],
-                "%": f"{item['percent']:.2f}%"
-            })
-    if table_data:
-        st.dataframe(table_data, use_container_width=True, hide_index=True)
+    st.subheader("All Relationships")
+    tbl = [{"Company": r["symbol"], "Shareholder ID": sid_map[r["name"]],
+            "Shareholder Name": r["name"], "%": f"{r['percent']:.2f}%"}
+           for r in data if r["percent"] >= min_pct]
+    if tbl:
+        st.dataframe(tbl, use_container_width=True, hide_index=True)
