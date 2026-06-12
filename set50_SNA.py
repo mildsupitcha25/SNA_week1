@@ -1,45 +1,6 @@
 import streamlit as st
 import networkx as nx
 import matplotlib.pyplot as plt
-import matplotlib.font_manager as fm
-import json
-from pathlib import Path
-
-FONT_PATH = Path(__file__).parent / "Sarabun-Regular.ttf"
-if FONT_PATH.exists():
-    fm.fontManager.addfont(str(FONT_PATH))
-THAI_FONT = fm.FontProperties(fname=str(FONT_PATH)) if FONT_PATH.exists() else None
-
-plt.rcParams["axes.unicode_minus"] = False
-
-st.set_page_config(page_title="SET50 Shareholder Relationship Graph", layout="wide")
-st.title("SET50 Shareholder Relationship Network")
-
-DATA_PATH = Path(__file__).parent / "set50_shareholders_1346.json"
-
-@st.cache_data
-def load_data():
-    with open(DATA_PATH, encoding="utf-8") as f:
-        return json.load(f)
-
-data = load_data()
-
-G = nx.Graph()
-
-companies = set()
-shareholders = {}
-
-for item in data:
-    sym = item["symbol"]
-    name = item["name"]
-    pct = item["percent"]
-    companies.add(sym)
-
-    G.add_node(sym, type="company")
-    G.add_node(name, type="shareholder")
-    G.add_edge(name, sym, weight=pct, percent=pct)import streamlit as st
-import networkx as nx
-import matplotlib.pyplot as plt
 import json
 from pathlib import Path
 
