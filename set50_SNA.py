@@ -3,11 +3,25 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 import json
+import urllib.request
+import os
 from pathlib import Path
 
-plt.rcParams["font.sans-serif"] = ["Tahoma", "Angsana New", "TH Sarabun New"] + plt.rcParams["font.sans-serif"]
-plt.rcParams["font.family"] = "sans-serif"
-plt.rcParams["axes.unicode_minus"] = False
+FONT_URL = "https://github.com/google/fonts/raw/main/ofl/sarabun/Sarabun-Regular.ttf"
+FONT_CACHE = Path.home() / ".cache" / "set50_sna" / "Sarabun-Regular.ttf"
+
+@st.cache_resource
+def setup_thai_font():
+    FONT_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    if not FONT_CACHE.exists():
+        urllib.request.urlretrieve(FONT_URL, FONT_CACHE)
+    fm.fontManager.addfont(str(FONT_CACHE))
+    font_name = fm.FontProperties(fname=str(FONT_CACHE)).get_name()
+    plt.rcParams["font.family"] = font_name
+    plt.rcParams["axes.unicode_minus"] = False
+    return font_name
+
+setup_thai_font()
 
 st.set_page_config(page_title="SET50 Shareholder Relationship Graph", layout="wide")
 st.title("SET50 Shareholder Relationship Network")
