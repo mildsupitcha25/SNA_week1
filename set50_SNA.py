@@ -8,7 +8,7 @@ from pathlib import Path
 plt.rcParams["axes.unicode_minus"] = False
 
 # --- Thai font support ---
-FONT_PATH = Path(__file__).parent / "fonts" / "NotoSansThai-Regular.ttf"
+FONT_PATH = Path(__file__).parent /"Sarabun-Regular.ttf"
 if FONT_PATH.exists():
     fm.fontManager.addfont(str(FONT_PATH))
     thai_font_name = fm.FontProperties(fname=str(FONT_PATH)).get_name()
