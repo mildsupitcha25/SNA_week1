@@ -3,20 +3,14 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 import json
-import urllib.request
-import os
 from pathlib import Path
 
-FONT_URL = "https://github.com/google/fonts/raw/main/ofl/sarabun/Sarabun-Regular.ttf"
-FONT_CACHE = Path.home() / ".cache" / "set50_sna" / "Sarabun-Regular.ttf"
+FONT_PATH = Path(__file__).parent / "Sarabun-Regular.ttf"
 
 @st.cache_resource
 def setup_thai_font():
-    FONT_CACHE.parent.mkdir(parents=True, exist_ok=True)
-    if not FONT_CACHE.exists():
-        urllib.request.urlretrieve(FONT_URL, FONT_CACHE)
-    fm.fontManager.addfont(str(FONT_CACHE))
-    font_name = fm.FontProperties(fname=str(FONT_CACHE)).get_name()
+    fm.fontManager.addfont(str(FONT_PATH))
+    font_name = fm.FontProperties(fname=str(FONT_PATH)).get_name()
     plt.rcParams["font.family"] = font_name
     plt.rcParams["axes.unicode_minus"] = False
     return font_name
