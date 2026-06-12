@@ -1,0 +1,2252 @@
+[
+  {
+    "symbol": "ADVANC",
+    "sequence": 1,
+    "name": "บริษัท  กัลฟ์ ดีเวลลอปเมนท์ จำกัด (มหาชน)",
+    "shares": 1202712000,
+    "percent": 40.44,
+    "book_close_date": "2026-03-02",
+    "updated_at": "2026-06-07T15:31:44.034597"
+  },
+  {
+    "symbol": "ADVANC",
+    "sequence": 2,
+    "name": "SINGTEL STRATEGIC INVESTMENTS PTE LTD.",
+    "shares": 568000000,
+    "percent": 19.1,
+    "book_close_date": "2026-03-02",
+    "updated_at": "2026-06-07T15:31:44.034597"
+  },
+  {
+    "symbol": "ADVANC",
+    "sequence": 3,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 226881375,
+    "percent": 7.63,
+    "book_close_date": "2026-03-02",
+    "updated_at": "2026-06-07T15:31:44.034597"
+  },
+  {
+    "symbol": "ADVANC",
+    "sequence": 4,
+    "name": "RAFFLE NOMINEES (PTE) LTD S/A SINGTEL STRATEGIC INVESTMENTS PTE LTD.",
+    "shares": 168492744,
+    "percent": 5.67,
+    "book_close_date": "2026-03-02",
+    "updated_at": "2026-06-07T15:31:44.034597"
+  },
+  {
+    "symbol": "ADVANC",
+    "sequence": 5,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 88383700,
+    "percent": 2.97,
+    "book_close_date": "2026-03-02",
+    "updated_at": "2026-06-07T15:31:44.034597"
+  },
+  {
+    "symbol": "AOT",
+    "sequence": 1,
+    "name": "กระทรวงการคลัง",
+    "shares": 10000000000,
+    "percent": 70.0,
+    "book_close_date": "2025-12-12",
+    "updated_at": "2026-06-07T15:31:44.377114"
+  },
+  {
+    "symbol": "AOT",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 468872380,
+    "percent": 3.28,
+    "book_close_date": "2025-12-12",
+    "updated_at": "2026-06-07T15:31:44.377114"
+  },
+  {
+    "symbol": "AOT",
+    "sequence": 3,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 345959000,
+    "percent": 2.42,
+    "book_close_date": "2025-12-12",
+    "updated_at": "2026-06-07T15:31:44.377114"
+  },
+  {
+    "symbol": "AOT",
+    "sequence": 4,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 195775520,
+    "percent": 1.37,
+    "book_close_date": "2025-12-12",
+    "updated_at": "2026-06-07T15:31:44.377114"
+  },
+  {
+    "symbol": "AOT",
+    "sequence": 5,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 171637725,
+    "percent": 1.2,
+    "book_close_date": "2025-12-12",
+    "updated_at": "2026-06-07T15:31:44.377114"
+  },
+  {
+    "symbol": "AWC",
+    "sequence": 1,
+    "name": "บริษัท  ทีซีซี บริหารธุรกิจ จำกัด",
+    "shares": 14400000000,
+    "percent": 44.96,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:44.767193"
+  },
+  {
+    "symbol": "AWC",
+    "sequence": 2,
+    "name": "บริษัท  ทีซีซี รีเทล จำกัด",
+    "shares": 9600000000,
+    "percent": 29.98,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:44.767193"
+  },
+  {
+    "symbol": "AWC",
+    "sequence": 3,
+    "name": "NOMURA SINGAPORE LIMITED-CUSTOMER SEGREGATED ACCOUNT",
+    "shares": 1430000000,
+    "percent": 4.47,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:44.767193"
+  },
+  {
+    "symbol": "AWC",
+    "sequence": 4,
+    "name": "UBS AG SINGAPORE BRANCH - FOR CLIENTS' ACCOUNTS",
+    "shares": 691391201,
+    "percent": 2.16,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:44.767193"
+  },
+  {
+    "symbol": "AWC",
+    "sequence": 5,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 612369400,
+    "percent": 1.91,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:44.767193"
+  },
+  {
+    "symbol": "BANPU",
+    "sequence": 1,
+    "name": "บริษัท  น้ำตาลมิตรผล จำกัด",
+    "shares": 827908786,
+    "percent": 8.26,
+    "book_close_date": "2026-04-17",
+    "updated_at": "2026-06-07T15:31:45.178244"
+  },
+  {
+    "symbol": "BANPU",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 810414140,
+    "percent": 8.09,
+    "book_close_date": "2026-04-17",
+    "updated_at": "2026-06-07T15:31:45.178244"
+  },
+  {
+    "symbol": "BANPU",
+    "sequence": 3,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 283633569,
+    "percent": 2.83,
+    "book_close_date": "2026-04-17",
+    "updated_at": "2026-06-07T15:31:45.178244"
+  },
+  {
+    "symbol": "BANPU",
+    "sequence": 4,
+    "name": "นาย ประทีป ตั้งมติธรรม",
+    "shares": 184268998,
+    "percent": 1.84,
+    "book_close_date": "2026-04-17",
+    "updated_at": "2026-06-07T15:31:45.178244"
+  },
+  {
+    "symbol": "BANPU",
+    "sequence": 5,
+    "name": "บริษัท  ทุนมิตรสยาม จำกัด",
+    "shares": 172906811,
+    "percent": 1.73,
+    "book_close_date": "2026-04-17",
+    "updated_at": "2026-06-07T15:31:45.178244"
+  },
+  {
+    "symbol": "BBL",
+    "sequence": 1,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 446289133,
+    "percent": 23.38,
+    "book_close_date": "2026-04-23",
+    "updated_at": "2026-06-07T15:31:45.577215"
+  },
+  {
+    "symbol": "BBL",
+    "sequence": 2,
+    "name": "บริษัท  ซิตี้เรียลตี้ จำกัด",
+    "shares": 89645900,
+    "percent": 4.7,
+    "book_close_date": "2026-04-23",
+    "updated_at": "2026-06-07T15:31:45.577215"
+  },
+  {
+    "symbol": "BBL",
+    "sequence": 3,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 76353394,
+    "percent": 4.0,
+    "book_close_date": "2026-04-23",
+    "updated_at": "2026-06-07T15:31:45.577215"
+  },
+  {
+    "symbol": "BBL",
+    "sequence": 4,
+    "name": "STATE STREET EUROPE LIMITED",
+    "shares": 52133499,
+    "percent": 2.73,
+    "book_close_date": "2026-04-23",
+    "updated_at": "2026-06-07T15:31:45.577215"
+  },
+  {
+    "symbol": "BBL",
+    "sequence": 5,
+    "name": "STATE STREET BANK AND TRUST COMPANY",
+    "shares": 47874374,
+    "percent": 2.51,
+    "book_close_date": "2026-04-23",
+    "updated_at": "2026-06-07T15:31:45.577215"
+  },
+  {
+    "symbol": "BDMS",
+    "sequence": 1,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 1540861735,
+    "percent": 9.7,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:45.999920"
+  },
+  {
+    "symbol": "BDMS",
+    "sequence": 2,
+    "name": "นาย ปราเสริฐ ปราสาททองโอสถ",
+    "shares": 1458941440,
+    "percent": 9.18,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:45.999920"
+  },
+  {
+    "symbol": "BDMS",
+    "sequence": 3,
+    "name": "น.ส. ปรมาภรณ์ ปราสาททองโอสถ",
+    "shares": 939537410,
+    "percent": 5.91,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:45.999920"
+  },
+  {
+    "symbol": "BDMS",
+    "sequence": 4,
+    "name": "บริษัท  วิริยะประกันภัย จำกัด (มหาชน)",
+    "shares": 678201330,
+    "percent": 4.27,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:45.999920"
+  },
+  {
+    "symbol": "BDMS",
+    "sequence": 5,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 601019734,
+    "percent": 3.78,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:45.999920"
+  },
+  {
+    "symbol": "BEM",
+    "sequence": 1,
+    "name": "บริษัท  ช.การช่าง จำกัด (มหาชน)",
+    "shares": 6459449984,
+    "percent": 42.26,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:46.377652"
+  },
+  {
+    "symbol": "BEM",
+    "sequence": 2,
+    "name": "การรถไฟฟ้าขนส่งมวลชนแห่งประเทศไทย",
+    "shares": 1256259584,
+    "percent": 8.22,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:46.377652"
+  },
+  {
+    "symbol": "BEM",
+    "sequence": 3,
+    "name": "ธนาคาร  กรุงไทย จำกัด (มหาชน)",
+    "shares": 815356075,
+    "percent": 5.33,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:46.377652"
+  },
+  {
+    "symbol": "BEM",
+    "sequence": 4,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 483077555,
+    "percent": 3.16,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:46.377652"
+  },
+  {
+    "symbol": "BEM",
+    "sequence": 5,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 465669067,
+    "percent": 3.05,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:46.377652"
+  },
+  {
+    "symbol": "BH",
+    "sequence": 1,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 84492505,
+    "percent": 10.63,
+    "book_close_date": "2026-03-18",
+    "updated_at": "2026-06-07T15:31:46.771416"
+  },
+  {
+    "symbol": "BH",
+    "sequence": 2,
+    "name": "บริษัท  กรุงเทพประกันภัย จำกัด (มหาชน)",
+    "shares": 79149817,
+    "percent": 9.96,
+    "book_close_date": "2026-03-18",
+    "updated_at": "2026-06-07T15:31:46.771416"
+  },
+  {
+    "symbol": "BH",
+    "sequence": 3,
+    "name": "UOB KAY HIAN (HONG KONG) LIMITED - Client Account",
+    "shares": 61886905,
+    "percent": 7.78,
+    "book_close_date": "2026-03-18",
+    "updated_at": "2026-06-07T15:31:46.771416"
+  },
+  {
+    "symbol": "BH",
+    "sequence": 4,
+    "name": "ธนาคาร  กรุงเทพ จำกัด (มหาชน)",
+    "shares": 53243344,
+    "percent": 6.7,
+    "book_close_date": "2026-03-18",
+    "updated_at": "2026-06-07T15:31:46.771416"
+  },
+  {
+    "symbol": "BH",
+    "sequence": 5,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 28291113,
+    "percent": 3.56,
+    "book_close_date": "2026-03-18",
+    "updated_at": "2026-06-07T15:31:46.771416"
+  },
+  {
+    "symbol": "BJC",
+    "sequence": 1,
+    "name": "บริษัท  ทีซีซี คอร์ปอเรชั่น จำกัด",
+    "shares": 1830730550,
+    "percent": 45.68,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:47.168625"
+  },
+  {
+    "symbol": "BJC",
+    "sequence": 2,
+    "name": "บริษัท  ทีซีซี โฮลดิ้งส์ (2519) จำกัด",
+    "shares": 1175089800,
+    "percent": 29.32,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:47.168625"
+  },
+  {
+    "symbol": "BJC",
+    "sequence": 3,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 164191200,
+    "percent": 4.1,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:47.168625"
+  },
+  {
+    "symbol": "BJC",
+    "sequence": 4,
+    "name": "RAFFLES NOMINEES (PTE) LIMITED",
+    "shares": 157094900,
+    "percent": 3.92,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:47.168625"
+  },
+  {
+    "symbol": "BJC",
+    "sequence": 5,
+    "name": "THE BANK OF NEW YORK (NOMINEES) LIMITED",
+    "shares": 103375800,
+    "percent": 2.58,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:47.168625"
+  },
+  {
+    "symbol": "BTS",
+    "sequence": 1,
+    "name": "นาย คีรี กาญจนพาสน์",
+    "shares": 5107061418,
+    "percent": 31.73,
+    "book_close_date": "2025-06-19",
+    "updated_at": "2026-06-07T15:31:47.543755"
+  },
+  {
+    "symbol": "BTS",
+    "sequence": 2,
+    "name": "นาย กวิน กาญจนพาสน์",
+    "shares": 1797135829,
+    "percent": 11.17,
+    "book_close_date": "2025-06-19",
+    "updated_at": "2026-06-07T15:31:47.543755"
+  },
+  {
+    "symbol": "BTS",
+    "sequence": 3,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 885248667,
+    "percent": 5.5,
+    "book_close_date": "2025-06-19",
+    "updated_at": "2026-06-07T15:31:47.543755"
+  },
+  {
+    "symbol": "BTS",
+    "sequence": 4,
+    "name": "ธนาคาร  กรุงเทพ จำกัด (มหาชน)",
+    "shares": 721528129,
+    "percent": 4.48,
+    "book_close_date": "2025-06-19",
+    "updated_at": "2026-06-07T15:31:47.543755"
+  },
+  {
+    "symbol": "BTS",
+    "sequence": 5,
+    "name": "CITIBANK NOMINEES SINGAPORE PTE LTD-A/C GIC C",
+    "shares": 513958000,
+    "percent": 3.19,
+    "book_close_date": "2025-06-19",
+    "updated_at": "2026-06-07T15:31:47.543755"
+  },
+  {
+    "symbol": "CBG",
+    "sequence": 1,
+    "name": "บริษัท  เสถียรธรรมโฮลดิ้ง จำกัด",
+    "shares": 250064500,
+    "percent": 25.01,
+    "book_close_date": "2026-03-06",
+    "updated_at": "2026-06-07T15:31:47.943609"
+  },
+  {
+    "symbol": "CBG",
+    "sequence": 2,
+    "name": "น.ส. ณัฐชไม ถนอมบูรณ์เจริญ",
+    "shares": 210000000,
+    "percent": 21.0,
+    "book_close_date": "2026-03-06",
+    "updated_at": "2026-06-07T15:31:47.943609"
+  },
+  {
+    "symbol": "CBG",
+    "sequence": 3,
+    "name": "นาย ยืนยง โอภากุล",
+    "shares": 70480000,
+    "percent": 7.05,
+    "book_close_date": "2026-03-06",
+    "updated_at": "2026-06-07T15:31:47.943609"
+  },
+  {
+    "symbol": "CBG",
+    "sequence": 4,
+    "name": "UBS AG SINGAPORE BRANCH - FOR CLIENTS' ACCOUNTS",
+    "shares": 45854499,
+    "percent": 4.59,
+    "book_close_date": "2026-03-06",
+    "updated_at": "2026-06-07T15:31:47.943609"
+  },
+  {
+    "symbol": "CBG",
+    "sequence": 5,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 31555871,
+    "percent": 3.16,
+    "book_close_date": "2026-03-06",
+    "updated_at": "2026-06-07T15:31:47.943609"
+  },
+  {
+    "symbol": "CCET",
+    "sequence": 1,
+    "name": "KINPO ELECTRONICS. INC.",
+    "shares": 5223956415,
+    "percent": 49.99,
+    "book_close_date": "2026-03-20",
+    "updated_at": "2026-06-07T15:31:48.353660"
+  },
+  {
+    "symbol": "CCET",
+    "sequence": 2,
+    "name": "FAR EASTERN INTERNATIONAL BANK",
+    "shares": 1655366936,
+    "percent": 15.84,
+    "book_close_date": "2026-03-20",
+    "updated_at": "2026-06-07T15:31:48.353660"
+  },
+  {
+    "symbol": "CCET",
+    "sequence": 3,
+    "name": "KGI ASIA LIMITED",
+    "shares": 1577667766,
+    "percent": 15.1,
+    "book_close_date": "2026-03-20",
+    "updated_at": "2026-06-07T15:31:48.353660"
+  },
+  {
+    "symbol": "CCET",
+    "sequence": 4,
+    "name": "นาย วิทิต พงศ์พิโรดม",
+    "shares": 244250200,
+    "percent": 2.34,
+    "book_close_date": "2026-03-20",
+    "updated_at": "2026-06-07T15:31:48.353660"
+  },
+  {
+    "symbol": "CCET",
+    "sequence": 5,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 169441810,
+    "percent": 1.62,
+    "book_close_date": "2026-03-20",
+    "updated_at": "2026-06-07T15:31:48.353660"
+  },
+  {
+    "symbol": "CENTEL",
+    "sequence": 1,
+    "name": "บริษัท  เตียง จิราธิวัฒน์ จำกัด",
+    "shares": 67523190,
+    "percent": 5.0,
+    "book_close_date": "2026-05-07",
+    "updated_at": "2026-06-07T15:31:48.751932"
+  },
+  {
+    "symbol": "CENTEL",
+    "sequence": 2,
+    "name": "UBS AG SINGAPORE BRANCH - FOR CLIENTS' ACCOUNTS",
+    "shares": 51225613,
+    "percent": 3.79,
+    "book_close_date": "2026-05-07",
+    "updated_at": "2026-06-07T15:31:48.751932"
+  },
+  {
+    "symbol": "CENTEL",
+    "sequence": 3,
+    "name": "นาย นิติ โอสถานุเคราะห์",
+    "shares": 41314611,
+    "percent": 3.06,
+    "book_close_date": "2026-05-07",
+    "updated_at": "2026-06-07T15:31:48.751932"
+  },
+  {
+    "symbol": "CENTEL",
+    "sequence": 4,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 34637578,
+    "percent": 2.57,
+    "book_close_date": "2026-05-07",
+    "updated_at": "2026-06-07T15:31:48.751932"
+  },
+  {
+    "symbol": "CENTEL",
+    "sequence": 5,
+    "name": "นาย สุทธิเกียรติ จิราธิวัฒน์",
+    "shares": 31170141,
+    "percent": 2.31,
+    "book_close_date": "2026-05-07",
+    "updated_at": "2026-06-07T15:31:48.751932"
+  },
+  {
+    "symbol": "COM7",
+    "sequence": 1,
+    "name": "นาย สุระ คณิตทวีกุล",
+    "shares": 601310600,
+    "percent": 25.18,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:49.132402"
+  },
+  {
+    "symbol": "COM7",
+    "sequence": 2,
+    "name": "นาย พงศ์ศักดิ์ ธรรมธัชอารี",
+    "shares": 476267000,
+    "percent": 19.95,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:49.132402"
+  },
+  {
+    "symbol": "COM7",
+    "sequence": 3,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 219675829,
+    "percent": 9.2,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:49.132402"
+  },
+  {
+    "symbol": "COM7",
+    "sequence": 4,
+    "name": "THE BANK OF NEW YORK MELLON",
+    "shares": 103980300,
+    "percent": 4.35,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:49.132402"
+  },
+  {
+    "symbol": "COM7",
+    "sequence": 5,
+    "name": "น.ส. อารี ปรีชานุกูล",
+    "shares": 71200000,
+    "percent": 2.98,
+    "book_close_date": "2026-03-11",
+    "updated_at": "2026-06-07T15:31:49.132402"
+  },
+  {
+    "symbol": "CPALL",
+    "sequence": 1,
+    "name": "บริษัท  ซี.พี.เมอร์แชนไดซิ่ง จำกัด",
+    "shares": 2732242300,
+    "percent": 30.42,
+    "book_close_date": "2026-05-05",
+    "updated_at": "2026-06-07T15:31:49.518891"
+  },
+  {
+    "symbol": "CPALL",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 868945745,
+    "percent": 9.67,
+    "book_close_date": "2026-05-05",
+    "updated_at": "2026-06-07T15:31:49.518891"
+  },
+  {
+    "symbol": "CPALL",
+    "sequence": 3,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 322463415,
+    "percent": 3.59,
+    "book_close_date": "2026-05-05",
+    "updated_at": "2026-06-07T15:31:49.518891"
+  },
+  {
+    "symbol": "CPALL",
+    "sequence": 4,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 308040067,
+    "percent": 3.43,
+    "book_close_date": "2026-05-05",
+    "updated_at": "2026-06-07T15:31:49.518891"
+  },
+  {
+    "symbol": "CPALL",
+    "sequence": 5,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 288362600,
+    "percent": 3.21,
+    "book_close_date": "2026-05-05",
+    "updated_at": "2026-06-07T15:31:49.518891"
+  },
+  {
+    "symbol": "CPF",
+    "sequence": 1,
+    "name": "บริษัท  เครือเจริญโภคภัณฑ์ จำกัด",
+    "shares": 2105464925,
+    "percent": 25.04,
+    "book_close_date": "2026-05-06",
+    "updated_at": "2026-06-07T15:31:50.006716"
+  },
+  {
+    "symbol": "CPF",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 867792045,
+    "percent": 10.32,
+    "book_close_date": "2026-05-06",
+    "updated_at": "2026-06-07T15:31:50.006716"
+  },
+  {
+    "symbol": "CPF",
+    "sequence": 3,
+    "name": "UBS AG LONDON BRANCH",
+    "shares": 772298991,
+    "percent": 9.19,
+    "book_close_date": "2026-05-06",
+    "updated_at": "2026-06-07T15:31:50.006716"
+  },
+  {
+    "symbol": "CPF",
+    "sequence": 4,
+    "name": "บริษัท  เจริญโภคภัณฑ์โฮลดิ้ง จำกัด",
+    "shares": 743660460,
+    "percent": 8.85,
+    "book_close_date": "2026-05-06",
+    "updated_at": "2026-06-07T15:31:50.006716"
+  },
+  {
+    "symbol": "CPF",
+    "sequence": 5,
+    "name": "บริษัท  เจริญโภคภัณฑ์อาหาร จำกัด (มหาชน)",
+    "shares": 247584500,
+    "percent": 2.94,
+    "book_close_date": "2026-05-06",
+    "updated_at": "2026-06-07T15:31:50.006716"
+  },
+  {
+    "symbol": "CPN",
+    "sequence": 1,
+    "name": "บริษัท  เซ็นทรัลโฮลดิ้ง จำกัด",
+    "shares": 1176343960,
+    "percent": 26.21,
+    "book_close_date": "2026-03-10",
+    "updated_at": "2026-06-07T15:31:50.351303"
+  },
+  {
+    "symbol": "CPN",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 308440483,
+    "percent": 6.87,
+    "book_close_date": "2026-03-10",
+    "updated_at": "2026-06-07T15:31:50.351303"
+  },
+  {
+    "symbol": "CPN",
+    "sequence": 3,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 156838600,
+    "percent": 3.49,
+    "book_close_date": "2026-03-10",
+    "updated_at": "2026-06-07T15:31:50.351303"
+  },
+  {
+    "symbol": "CPN",
+    "sequence": 4,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 149387729,
+    "percent": 3.33,
+    "book_close_date": "2026-03-10",
+    "updated_at": "2026-06-07T15:31:50.351303"
+  },
+  {
+    "symbol": "CPN",
+    "sequence": 5,
+    "name": "นาย นิติ โอสถานุเคราะห์",
+    "shares": 107320000,
+    "percent": 2.39,
+    "book_close_date": "2026-03-10",
+    "updated_at": "2026-06-07T15:31:50.351303"
+  },
+  {
+    "symbol": "CRC",
+    "sequence": 1,
+    "name": "บริษัท  ห้างเซ็นทรัล ดีพาทเมนท์สโตร์ จำกัด",
+    "shares": 2114284890,
+    "percent": 35.06,
+    "book_close_date": "2026-04-22",
+    "updated_at": "2026-06-07T15:31:50.785369"
+  },
+  {
+    "symbol": "CRC",
+    "sequence": 2,
+    "name": "Deutsche Bank AG Singapore PWM",
+    "shares": 277963444,
+    "percent": 4.61,
+    "book_close_date": "2026-04-22",
+    "updated_at": "2026-06-07T15:31:50.785369"
+  },
+  {
+    "symbol": "CRC",
+    "sequence": 3,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 198024966,
+    "percent": 3.28,
+    "book_close_date": "2026-04-22",
+    "updated_at": "2026-06-07T15:31:50.785369"
+  },
+  {
+    "symbol": "CRC",
+    "sequence": 4,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 167165900,
+    "percent": 2.77,
+    "book_close_date": "2026-04-22",
+    "updated_at": "2026-06-07T15:31:50.785369"
+  },
+  {
+    "symbol": "CRC",
+    "sequence": 5,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 105063858,
+    "percent": 1.74,
+    "book_close_date": "2026-04-22",
+    "updated_at": "2026-06-07T15:31:50.785369"
+  },
+  {
+    "symbol": "DELTA",
+    "sequence": 1,
+    "name": "DELTA ELECTRONICS INT'L (SINGAPORE) PTE. LTD.",
+    "shares": 5344793060,
+    "percent": 42.85,
+    "book_close_date": "2026-02-27",
+    "updated_at": "2026-06-07T15:31:51.137477"
+  },
+  {
+    "symbol": "DELTA",
+    "sequence": 2,
+    "name": "CITI (NOMINEES) LIMITED-CBHK-PBGSG-RESTRICTED SHARES",
+    "shares": 1728454200,
+    "percent": 13.86,
+    "book_close_date": "2026-02-27",
+    "updated_at": "2026-06-07T15:31:51.137477"
+  },
+  {
+    "symbol": "DELTA",
+    "sequence": 3,
+    "name": "DELTA INTERNATIONAL HOLDING LIMITED B.V.",
+    "shares": 1585260021,
+    "percent": 12.71,
+    "book_close_date": "2026-02-27",
+    "updated_at": "2026-06-07T15:31:51.137477"
+  },
+  {
+    "symbol": "DELTA",
+    "sequence": 4,
+    "name": "DELTA ELECTRONICS INC.",
+    "shares": 691281400,
+    "percent": 5.54,
+    "book_close_date": "2026-02-27",
+    "updated_at": "2026-06-07T15:31:51.137477"
+  },
+  {
+    "symbol": "DELTA",
+    "sequence": 5,
+    "name": "UBS AG HONG KONG BRANCH - FOR CLIENTS' ACCOUNTS",
+    "shares": 546350000,
+    "percent": 4.38,
+    "book_close_date": "2026-02-27",
+    "updated_at": "2026-06-07T15:31:51.137477"
+  },
+  {
+    "symbol": "EGCO",
+    "sequence": 1,
+    "name": "การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย",
+    "shares": 133773662,
+    "percent": 25.41,
+    "book_close_date": "2026-03-16",
+    "updated_at": "2026-06-07T15:31:51.527937"
+  },
+  {
+    "symbol": "EGCO",
+    "sequence": 2,
+    "name": "TEPDIA Generating B.V.",
+    "shares": 118023606,
+    "percent": 22.42,
+    "book_close_date": "2026-03-16",
+    "updated_at": "2026-06-07T15:31:51.527937"
+  },
+  {
+    "symbol": "EGCO",
+    "sequence": 3,
+    "name": "สหกรณ์ ออมทรัพย์การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย จำกัด",
+    "shares": 33334500,
+    "percent": 6.33,
+    "book_close_date": "2026-03-16",
+    "updated_at": "2026-06-07T15:31:51.527937"
+  },
+  {
+    "symbol": "EGCO",
+    "sequence": 4,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 26752144,
+    "percent": 5.08,
+    "book_close_date": "2026-03-16",
+    "updated_at": "2026-06-07T15:31:51.527937"
+  },
+  {
+    "symbol": "EGCO",
+    "sequence": 5,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 24128600,
+    "percent": 4.58,
+    "book_close_date": "2026-03-16",
+    "updated_at": "2026-06-07T15:31:51.527937"
+  },
+  {
+    "symbol": "GPSC",
+    "sequence": 1,
+    "name": "บริษัท  ปตท. จำกัด (มหาชน)",
+    "shares": 1332955135,
+    "percent": 47.27,
+    "book_close_date": "2026-02-26",
+    "updated_at": "2026-06-07T15:31:51.909134"
+  },
+  {
+    "symbol": "GPSC",
+    "sequence": 2,
+    "name": "บริษัท  พีทีที โกลบอล เคมิคอล จำกัด (มหาชน)",
+    "shares": 281972937,
+    "percent": 10.0,
+    "book_close_date": "2026-02-26",
+    "updated_at": "2026-06-07T15:31:51.909134"
+  },
+  {
+    "symbol": "GPSC",
+    "sequence": 3,
+    "name": "บริษัท  ไทยออยล์ จำกัด (มหาชน)",
+    "shares": 281972937,
+    "percent": 10.0,
+    "book_close_date": "2026-02-26",
+    "updated_at": "2026-06-07T15:31:51.909134"
+  },
+  {
+    "symbol": "GPSC",
+    "sequence": 4,
+    "name": "บริษัท  สยาม แมนเนจเม้นท์ โฮลดิ้ง จำกัด",
+    "shares": 224431735,
+    "percent": 7.96,
+    "book_close_date": "2026-02-26",
+    "updated_at": "2026-06-07T15:31:51.909134"
+  },
+  {
+    "symbol": "GPSC",
+    "sequence": 5,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 81523800,
+    "percent": 2.89,
+    "book_close_date": "2026-02-26",
+    "updated_at": "2026-06-07T15:31:51.909134"
+  },
+  {
+    "symbol": "GULF",
+    "sequence": 1,
+    "name": "นาย สารัชถ์ รัตนาวะดี",
+    "shares": 4374904693,
+    "percent": 29.28,
+    "book_close_date": "2026-03-04",
+    "updated_at": "2026-06-07T15:31:52.298072"
+  },
+  {
+    "symbol": "GULF",
+    "sequence": 2,
+    "name": "UBS AG SINGAPORE BRANCH - FOR CLIENTS' ACCOUNTS",
+    "shares": 1511839012,
+    "percent": 10.12,
+    "book_close_date": "2026-03-04",
+    "updated_at": "2026-06-07T15:31:52.298072"
+  },
+  {
+    "symbol": "GULF",
+    "sequence": 3,
+    "name": "GULF CAPITAL HOLDINGS LIMITED",
+    "shares": 1194942592,
+    "percent": 8.0,
+    "book_close_date": "2026-03-04",
+    "updated_at": "2026-06-07T15:31:52.298072"
+  },
+  {
+    "symbol": "GULF",
+    "sequence": 4,
+    "name": "SINGTEL GLOBAL INVESTMENT PTE. LTD.",
+    "shares": 1155441235,
+    "percent": 7.73,
+    "book_close_date": "2026-03-04",
+    "updated_at": "2026-06-07T15:31:52.298072"
+  },
+  {
+    "symbol": "GULF",
+    "sequence": 5,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 641207905,
+    "percent": 4.29,
+    "book_close_date": "2026-03-04",
+    "updated_at": "2026-06-07T15:31:52.298072"
+  },
+  {
+    "symbol": "HMPRO",
+    "sequence": 1,
+    "name": "บริษัท  แลนด์ แอนด์ เฮ้าส์ จำกัด (มหาชน)",
+    "shares": 3975878432,
+    "percent": 30.23,
+    "book_close_date": "2026-04-23",
+    "updated_at": "2026-06-07T15:31:52.684858"
+  },
+  {
+    "symbol": "HMPRO",
+    "sequence": 2,
+    "name": "บริษัท  ควอลิตี้เฮ้าส์ จำกัด (มหาชน)",
+    "shares": 2613023098,
+    "percent": 19.87,
+    "book_close_date": "2026-04-23",
+    "updated_at": "2026-06-07T15:31:52.684858"
+  },
+  {
+    "symbol": "HMPRO",
+    "sequence": 3,
+    "name": "นาย นิติ โอสถานุเคราะห์",
+    "shares": 693564862,
+    "percent": 5.27,
+    "book_close_date": "2026-04-23",
+    "updated_at": "2026-06-07T15:31:52.684858"
+  },
+  {
+    "symbol": "HMPRO",
+    "sequence": 4,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 629548472,
+    "percent": 4.79,
+    "book_close_date": "2026-04-23",
+    "updated_at": "2026-06-07T15:31:52.684858"
+  },
+  {
+    "symbol": "HMPRO",
+    "sequence": 5,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 491505750,
+    "percent": 3.74,
+    "book_close_date": "2026-04-23",
+    "updated_at": "2026-06-07T15:31:52.684858"
+  },
+  {
+    "symbol": "IVL",
+    "sequence": 1,
+    "name": "บริษัท  อินโดรามา รีซอสเซส จำกัด",
+    "shares": 3688403618,
+    "percent": 65.69,
+    "book_close_date": "2026-05-29",
+    "updated_at": "2026-06-07T15:31:53.087778"
+  },
+  {
+    "symbol": "IVL",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 328292662,
+    "percent": 5.85,
+    "book_close_date": "2026-05-29",
+    "updated_at": "2026-06-07T15:31:53.087778"
+  },
+  {
+    "symbol": "IVL",
+    "sequence": 3,
+    "name": "ธนาคาร  กรุงเทพ จำกัด (มหาชน)",
+    "shares": 270905264,
+    "percent": 4.83,
+    "book_close_date": "2026-05-29",
+    "updated_at": "2026-06-07T15:31:53.087778"
+  },
+  {
+    "symbol": "IVL",
+    "sequence": 4,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 195808700,
+    "percent": 3.49,
+    "book_close_date": "2026-05-29",
+    "updated_at": "2026-06-07T15:31:53.087778"
+  },
+  {
+    "symbol": "IVL",
+    "sequence": 5,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 94564840,
+    "percent": 1.68,
+    "book_close_date": "2026-05-29",
+    "updated_at": "2026-06-07T15:31:53.087778"
+  },
+  {
+    "symbol": "KBANK",
+    "sequence": 1,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 302400438,
+    "percent": 12.76,
+    "book_close_date": "2026-04-22",
+    "updated_at": "2026-06-07T15:31:53.469447"
+  },
+  {
+    "symbol": "KBANK",
+    "sequence": 2,
+    "name": "บริษัท  กัลฟ์ ดีเวลลอปเมนท์ จำกัด (มหาชน)",
+    "shares": 236805000,
+    "percent": 9.99,
+    "book_close_date": "2026-04-22",
+    "updated_at": "2026-06-07T15:31:53.469447"
+  },
+  {
+    "symbol": "KBANK",
+    "sequence": 3,
+    "name": "STATE STREET EUROPE LIMITED",
+    "shares": 138568144,
+    "percent": 5.85,
+    "book_close_date": "2026-04-22",
+    "updated_at": "2026-06-07T15:31:53.469447"
+  },
+  {
+    "symbol": "KBANK",
+    "sequence": 4,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 101684007,
+    "percent": 4.29,
+    "book_close_date": "2026-04-22",
+    "updated_at": "2026-06-07T15:31:53.469447"
+  },
+  {
+    "symbol": "KBANK",
+    "sequence": 5,
+    "name": "STATE STREET BANK AND TRUST COMPANY",
+    "shares": 92451320,
+    "percent": 3.9,
+    "book_close_date": "2026-04-22",
+    "updated_at": "2026-06-07T15:31:53.469447"
+  },
+  {
+    "symbol": "KKP",
+    "sequence": 1,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 127201113,
+    "percent": 14.63,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:53.862449"
+  },
+  {
+    "symbol": "KKP",
+    "sequence": 2,
+    "name": "บริษัท  โชติธนวัฒน์ จำกัด",
+    "shares": 46318066,
+    "percent": 5.33,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:53.862449"
+  },
+  {
+    "symbol": "KKP",
+    "sequence": 3,
+    "name": "บริษัท  น้ำตาลตะวันออก จำกัด",
+    "shares": 40516393,
+    "percent": 4.66,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:53.862449"
+  },
+  {
+    "symbol": "KKP",
+    "sequence": 4,
+    "name": "น.ส. ฐิตินันท์ วัธนเวคิน",
+    "shares": 35532761,
+    "percent": 4.09,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:53.862449"
+  },
+  {
+    "symbol": "KKP",
+    "sequence": 5,
+    "name": "ธนาคาร  เกียรตินาคินภัทร จำกัด (มหาชน)",
+    "shares": 34896800,
+    "percent": 4.01,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:53.862449"
+  },
+  {
+    "symbol": "KTB",
+    "sequence": 1,
+    "name": "กองทุน  เพื่อการฟื้นฟูและพัฒนาระบบสถาบันการเงิน",
+    "shares": 7696248833,
+    "percent": 55.07,
+    "book_close_date": "2026-04-16",
+    "updated_at": "2026-06-07T15:31:54.248836"
+  },
+  {
+    "symbol": "KTB",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 1139937572,
+    "percent": 8.16,
+    "book_close_date": "2026-04-16",
+    "updated_at": "2026-06-07T15:31:54.248836"
+  },
+  {
+    "symbol": "KTB",
+    "sequence": 3,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 442009615,
+    "percent": 3.16,
+    "book_close_date": "2026-04-16",
+    "updated_at": "2026-06-07T15:31:54.248836"
+  },
+  {
+    "symbol": "KTB",
+    "sequence": 4,
+    "name": "STATE STREET EUROPE LIMITED",
+    "shares": 247722258,
+    "percent": 1.77,
+    "book_close_date": "2026-04-16",
+    "updated_at": "2026-06-07T15:31:54.248836"
+  },
+  {
+    "symbol": "KTB",
+    "sequence": 5,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 244131410,
+    "percent": 1.75,
+    "book_close_date": "2026-04-16",
+    "updated_at": "2026-06-07T15:31:54.248836"
+  },
+  {
+    "symbol": "KTC",
+    "sequence": 1,
+    "name": "ธนาคาร  กรุงไทย จำกัด (มหาชน)",
+    "shares": 1270908500,
+    "percent": 49.29,
+    "book_close_date": "2026-04-16",
+    "updated_at": "2026-06-07T15:31:54.659576"
+  },
+  {
+    "symbol": "KTC",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 169006961,
+    "percent": 6.55,
+    "book_close_date": "2026-04-16",
+    "updated_at": "2026-06-07T15:31:54.659576"
+  },
+  {
+    "symbol": "KTC",
+    "sequence": 3,
+    "name": "นาย มงคล ประกิตชัยวัฒนา",
+    "shares": 138575084,
+    "percent": 5.37,
+    "book_close_date": "2026-04-16",
+    "updated_at": "2026-06-07T15:31:54.659576"
+  },
+  {
+    "symbol": "KTC",
+    "sequence": 4,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 53306868,
+    "percent": 2.07,
+    "book_close_date": "2026-04-16",
+    "updated_at": "2026-06-07T15:31:54.659576"
+  },
+  {
+    "symbol": "KTC",
+    "sequence": 5,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 44271500,
+    "percent": 1.72,
+    "book_close_date": "2026-04-16",
+    "updated_at": "2026-06-07T15:31:54.659576"
+  },
+  {
+    "symbol": "LH",
+    "sequence": 1,
+    "name": "นาย อนันต์ อัศวโภคิน",
+    "shares": 2894883427,
+    "percent": 24.23,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:55.035464"
+  },
+  {
+    "symbol": "LH",
+    "sequence": 2,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 763135140,
+    "percent": 6.39,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:55.035464"
+  },
+  {
+    "symbol": "LH",
+    "sequence": 3,
+    "name": "บริษัท  เมย์แลนด์ จำกัด",
+    "shares": 677000069,
+    "percent": 5.67,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:55.035464"
+  },
+  {
+    "symbol": "LH",
+    "sequence": 4,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 638067171,
+    "percent": 5.34,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:55.035464"
+  },
+  {
+    "symbol": "LH",
+    "sequence": 5,
+    "name": "THE BANK OF NEW YORK MELLON",
+    "shares": 310929000,
+    "percent": 2.6,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:31:55.035464"
+  },
+  {
+    "symbol": "MINT",
+    "sequence": 1,
+    "name": "บริษัท  ไมเนอร์ โฮลดิ้ง (ไทย) จำกัด",
+    "shares": 916556730,
+    "percent": 16.17,
+    "book_close_date": "2026-05-06",
+    "updated_at": "2026-06-07T15:31:55.435070"
+  },
+  {
+    "symbol": "MINT",
+    "sequence": 2,
+    "name": "UBS AG SINGAPORE BRANCH - FOR CLIENTS' ACCOUNTS",
+    "shares": 654773783,
+    "percent": 11.55,
+    "book_close_date": "2026-05-06",
+    "updated_at": "2026-06-07T15:31:55.435070"
+  },
+  {
+    "symbol": "MINT",
+    "sequence": 3,
+    "name": "นาย นิติ โอสถานุเคราะห์",
+    "shares": 558134428,
+    "percent": 9.84,
+    "book_close_date": "2026-05-06",
+    "updated_at": "2026-06-07T15:31:55.435070"
+  },
+  {
+    "symbol": "MINT",
+    "sequence": 4,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 368653901,
+    "percent": 6.5,
+    "book_close_date": "2026-05-06",
+    "updated_at": "2026-06-07T15:31:55.435070"
+  },
+  {
+    "symbol": "MINT",
+    "sequence": 5,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 205221402,
+    "percent": 3.62,
+    "book_close_date": "2026-05-06",
+    "updated_at": "2026-06-07T15:31:55.435070"
+  },
+  {
+    "symbol": "MTC",
+    "sequence": 1,
+    "name": "นาง ดาวนภา พัชรชัย",
+    "shares": 720000000,
+    "percent": 33.96,
+    "book_close_date": "2026-04-29",
+    "updated_at": "2026-06-07T15:31:55.814898"
+  },
+  {
+    "symbol": "MTC",
+    "sequence": 2,
+    "name": "นาย ปริทัศน์ เพชรอำไพ",
+    "shares": 304028200,
+    "percent": 14.34,
+    "book_close_date": "2026-04-29",
+    "updated_at": "2026-06-07T15:31:55.814898"
+  },
+  {
+    "symbol": "MTC",
+    "sequence": 3,
+    "name": "นาย ศึกษิต พัชรชัย",
+    "shares": 300028200,
+    "percent": 14.15,
+    "book_close_date": "2026-04-29",
+    "updated_at": "2026-06-07T15:31:55.814898"
+  },
+  {
+    "symbol": "MTC",
+    "sequence": 4,
+    "name": "UBS AG SINGAPORE BRANCH - FOR CLIENTS' ACCOUNTS",
+    "shares": 110300000,
+    "percent": 5.2,
+    "book_close_date": "2026-04-29",
+    "updated_at": "2026-06-07T15:31:55.814898"
+  },
+  {
+    "symbol": "MTC",
+    "sequence": 5,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 68050375,
+    "percent": 3.21,
+    "book_close_date": "2026-04-29",
+    "updated_at": "2026-06-07T15:31:55.814898"
+  },
+  {
+    "symbol": "OR",
+    "sequence": 1,
+    "name": "บริษัท  ปตท. จำกัด (มหาชน)",
+    "shares": 9000000000,
+    "percent": 75.0,
+    "book_close_date": "2026-02-24",
+    "updated_at": "2026-06-07T15:31:56.199134"
+  },
+  {
+    "symbol": "OR",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 204607323,
+    "percent": 1.71,
+    "book_close_date": "2026-02-24",
+    "updated_at": "2026-06-07T15:31:56.199134"
+  },
+  {
+    "symbol": "OR",
+    "sequence": 3,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 188439322,
+    "percent": 1.57,
+    "book_close_date": "2026-02-24",
+    "updated_at": "2026-06-07T15:31:56.199134"
+  },
+  {
+    "symbol": "OR",
+    "sequence": 4,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 103877917,
+    "percent": 0.87,
+    "book_close_date": "2026-02-24",
+    "updated_at": "2026-06-07T15:31:56.199134"
+  },
+  {
+    "symbol": "OR",
+    "sequence": 5,
+    "name": "ชุมนุมสหกรณ์ออมทรัพย์ แห่งประเทศไทย จำกัด",
+    "shares": 75355196,
+    "percent": 0.63,
+    "book_close_date": "2026-02-24",
+    "updated_at": "2026-06-07T15:31:56.199134"
+  },
+  {
+    "symbol": "OSP",
+    "sequence": 1,
+    "name": "นาย นิติ โอสถานุเคราะห์",
+    "shares": 723097300,
+    "percent": 24.07,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:56.584363"
+  },
+  {
+    "symbol": "OSP",
+    "sequence": 2,
+    "name": "BANK JULIUS BAER & CO. LTD, SINGAPORE",
+    "shares": 261060475,
+    "percent": 8.69,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:56.584363"
+  },
+  {
+    "symbol": "OSP",
+    "sequence": 3,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 117207677,
+    "percent": 3.9,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:56.584363"
+  },
+  {
+    "symbol": "OSP",
+    "sequence": 4,
+    "name": "นาย ภาสุรี โอสถานุเคราะห์",
+    "shares": 100619800,
+    "percent": 3.35,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:56.584363"
+  },
+  {
+    "symbol": "OSP",
+    "sequence": 5,
+    "name": "น.ส. เกสรา โอสถานุเคราะห์",
+    "shares": 94188200,
+    "percent": 3.14,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:56.584363"
+  },
+  {
+    "symbol": "PTT",
+    "sequence": 1,
+    "name": "กระทรวงการคลัง",
+    "shares": 14675631250,
+    "percent": 51.38,
+    "book_close_date": "2026-03-06",
+    "updated_at": "2026-06-07T15:31:56.934585"
+  },
+  {
+    "symbol": "PTT",
+    "sequence": 2,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 2235634400,
+    "percent": 7.83,
+    "book_close_date": "2026-03-06",
+    "updated_at": "2026-06-07T15:31:56.934585"
+  },
+  {
+    "symbol": "PTT",
+    "sequence": 3,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 1700904562,
+    "percent": 5.95,
+    "book_close_date": "2026-03-06",
+    "updated_at": "2026-06-07T15:31:56.934585"
+  },
+  {
+    "symbol": "PTT",
+    "sequence": 4,
+    "name": "ชุมนุมสหกรณ์ออมทรัพย์ แห่งประเทศไทย จำกัด",
+    "shares": 588811600,
+    "percent": 2.06,
+    "book_close_date": "2026-03-06",
+    "updated_at": "2026-06-07T15:31:56.934585"
+  },
+  {
+    "symbol": "PTT",
+    "sequence": 5,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 506558553,
+    "percent": 1.77,
+    "book_close_date": "2026-03-06",
+    "updated_at": "2026-06-07T15:31:56.934585"
+  },
+  {
+    "symbol": "PTTEP",
+    "sequence": 1,
+    "name": "บริษัท  ปตท. จำกัด (มหาชน)",
+    "shares": 2532340489,
+    "percent": 63.79,
+    "book_close_date": "2026-02-24",
+    "updated_at": "2026-06-07T15:31:57.323077"
+  },
+  {
+    "symbol": "PTTEP",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 265573981,
+    "percent": 6.69,
+    "book_close_date": "2026-02-24",
+    "updated_at": "2026-06-07T15:31:57.323077"
+  },
+  {
+    "symbol": "PTTEP",
+    "sequence": 3,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 69689100,
+    "percent": 1.76,
+    "book_close_date": "2026-02-24",
+    "updated_at": "2026-06-07T15:31:57.323077"
+  },
+  {
+    "symbol": "PTTEP",
+    "sequence": 4,
+    "name": "STATE STREET EUROPE LIMITED",
+    "shares": 67771167,
+    "percent": 1.71,
+    "book_close_date": "2026-02-24",
+    "updated_at": "2026-06-07T15:31:57.323077"
+  },
+  {
+    "symbol": "PTTEP",
+    "sequence": 5,
+    "name": "บริษัท  สยาม แมนเนจเม้นท์ โฮลดิ้ง จำกัด",
+    "shares": 59520000,
+    "percent": 1.5,
+    "book_close_date": "2026-02-24",
+    "updated_at": "2026-06-07T15:31:57.323077"
+  },
+  {
+    "symbol": "PTTGC",
+    "sequence": 1,
+    "name": "บริษัท  ปตท. จำกัด (มหาชน)",
+    "shares": 2037220915,
+    "percent": 45.18,
+    "book_close_date": "2026-02-25",
+    "updated_at": "2026-06-07T15:31:57.723441"
+  },
+  {
+    "symbol": "PTTGC",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 238053430,
+    "percent": 5.28,
+    "book_close_date": "2026-02-25",
+    "updated_at": "2026-06-07T15:31:57.723441"
+  },
+  {
+    "symbol": "PTTGC",
+    "sequence": 3,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 151705700,
+    "percent": 3.36,
+    "book_close_date": "2026-02-25",
+    "updated_at": "2026-06-07T15:31:57.723441"
+  },
+  {
+    "symbol": "PTTGC",
+    "sequence": 4,
+    "name": "บริษัท  สยาม แมนเนจเม้นท์ โฮลดิ้ง จำกัด",
+    "shares": 135240000,
+    "percent": 3.0,
+    "book_close_date": "2026-02-25",
+    "updated_at": "2026-06-07T15:31:57.723441"
+  },
+  {
+    "symbol": "PTTGC",
+    "sequence": 5,
+    "name": "STATE STREET EUROPE LIMITED",
+    "shares": 114288452,
+    "percent": 2.53,
+    "book_close_date": "2026-02-25",
+    "updated_at": "2026-06-07T15:31:57.723441"
+  },
+  {
+    "symbol": "RATCH",
+    "sequence": 1,
+    "name": "การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย",
+    "shares": 978750000,
+    "percent": 45.0,
+    "book_close_date": "2026-03-13",
+    "updated_at": "2026-06-07T15:31:58.166041"
+  },
+  {
+    "symbol": "RATCH",
+    "sequence": 2,
+    "name": "สหกรณ์ ออมทรัพย์การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย จำกัด",
+    "shares": 134598536,
+    "percent": 6.19,
+    "book_close_date": "2026-03-13",
+    "updated_at": "2026-06-07T15:31:58.166041"
+  },
+  {
+    "symbol": "RATCH",
+    "sequence": 3,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 101870550,
+    "percent": 4.68,
+    "book_close_date": "2026-03-13",
+    "updated_at": "2026-06-07T15:31:58.166041"
+  },
+  {
+    "symbol": "RATCH",
+    "sequence": 4,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 81948761,
+    "percent": 3.77,
+    "book_close_date": "2026-03-13",
+    "updated_at": "2026-06-07T15:31:58.166041"
+  },
+  {
+    "symbol": "RATCH",
+    "sequence": 5,
+    "name": "นาย ประทีป ตั้งมติธรรม",
+    "shares": 27335450,
+    "percent": 1.26,
+    "book_close_date": "2026-03-13",
+    "updated_at": "2026-06-07T15:31:58.166041"
+  },
+  {
+    "symbol": "SAWAD",
+    "sequence": 1,
+    "name": "น.ส. ธิดา แก้วบุตตา",
+    "shares": 268883440,
+    "percent": 16.18,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:58.548772"
+  },
+  {
+    "symbol": "SAWAD",
+    "sequence": 2,
+    "name": "UBS AG SINGAPORE BRANCH - FOR CLIENTS' ACCOUNTS",
+    "shares": 195030812,
+    "percent": 11.74,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:58.548772"
+  },
+  {
+    "symbol": "SAWAD",
+    "sequence": 3,
+    "name": "น.ส. ดวงใจ แก้วบุตตา",
+    "shares": 135263396,
+    "percent": 8.14,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:58.548772"
+  },
+  {
+    "symbol": "SAWAD",
+    "sequence": 4,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 103159132,
+    "percent": 6.21,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:58.548772"
+  },
+  {
+    "symbol": "SAWAD",
+    "sequence": 5,
+    "name": "นาง จริยา แก้วบุตตา",
+    "shares": 98643749,
+    "percent": 5.94,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:31:58.548772"
+  },
+  {
+    "symbol": "SCB",
+    "sequence": 1,
+    "name": "พระบาทสมเด็จพระวชิรเกล้าเจ้าอยู่หัว",
+    "shares": 793832359,
+    "percent": 23.58,
+    "book_close_date": "2026-04-21",
+    "updated_at": "2026-06-07T15:31:58.934828"
+  },
+  {
+    "symbol": "SCB",
+    "sequence": 2,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 785298200,
+    "percent": 23.32,
+    "book_close_date": "2026-04-21",
+    "updated_at": "2026-06-07T15:31:58.934828"
+  },
+  {
+    "symbol": "SCB",
+    "sequence": 3,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 182011647,
+    "percent": 5.41,
+    "book_close_date": "2026-04-21",
+    "updated_at": "2026-06-07T15:31:58.934828"
+  },
+  {
+    "symbol": "SCB",
+    "sequence": 4,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 103055200,
+    "percent": 3.06,
+    "book_close_date": "2026-04-21",
+    "updated_at": "2026-06-07T15:31:58.934828"
+  },
+  {
+    "symbol": "SCB",
+    "sequence": 5,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 102264686,
+    "percent": 3.04,
+    "book_close_date": "2026-04-21",
+    "updated_at": "2026-06-07T15:31:58.934828"
+  },
+  {
+    "symbol": "SCC",
+    "sequence": 1,
+    "name": "พระบาทสมเด็จพระวชิรเกล้าเจ้าอยู่หัว",
+    "shares": 403647840,
+    "percent": 33.64,
+    "book_close_date": "2026-04-02",
+    "updated_at": "2026-06-07T15:31:59.329598"
+  },
+  {
+    "symbol": "SCC",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 91860061,
+    "percent": 7.66,
+    "book_close_date": "2026-04-02",
+    "updated_at": "2026-06-07T15:31:59.329598"
+  },
+  {
+    "symbol": "SCC",
+    "sequence": 3,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 67135537,
+    "percent": 5.59,
+    "book_close_date": "2026-04-02",
+    "updated_at": "2026-06-07T15:31:59.329598"
+  },
+  {
+    "symbol": "SCC",
+    "sequence": 4,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 37873579,
+    "percent": 3.16,
+    "book_close_date": "2026-04-02",
+    "updated_at": "2026-06-07T15:31:59.329598"
+  },
+  {
+    "symbol": "SCC",
+    "sequence": 5,
+    "name": "STATE STREET EUROPE LIMITED",
+    "shares": 21545041,
+    "percent": 1.8,
+    "book_close_date": "2026-04-02",
+    "updated_at": "2026-06-07T15:31:59.329598"
+  },
+  {
+    "symbol": "SCGP",
+    "sequence": 1,
+    "name": "บริษัท  ปูนซิเมนต์ไทย จำกัด (มหาชน)",
+    "shares": 3095882660,
+    "percent": 72.12,
+    "book_close_date": "2026-04-01",
+    "updated_at": "2026-06-07T15:31:59.743638"
+  },
+  {
+    "symbol": "SCGP",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 99757377,
+    "percent": 2.32,
+    "book_close_date": "2026-04-01",
+    "updated_at": "2026-06-07T15:31:59.743638"
+  },
+  {
+    "symbol": "SCGP",
+    "sequence": 3,
+    "name": "สำนักงานประกันสังคม",
+    "shares": 77672286,
+    "percent": 1.81,
+    "book_close_date": "2026-04-01",
+    "updated_at": "2026-06-07T15:31:59.743638"
+  },
+  {
+    "symbol": "SCGP",
+    "sequence": 4,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 77280058,
+    "percent": 1.8,
+    "book_close_date": "2026-04-01",
+    "updated_at": "2026-06-07T15:31:59.743638"
+  },
+  {
+    "symbol": "SCGP",
+    "sequence": 5,
+    "name": "บริษัท  ทุนลดาวัลย์ จำกัด",
+    "shares": 75198900,
+    "percent": 1.75,
+    "book_close_date": "2026-04-01",
+    "updated_at": "2026-06-07T15:31:59.743638"
+  },
+  {
+    "symbol": "TCAP",
+    "sequence": 1,
+    "name": "บริษัท  เอ็ม บี เค จำกัด (มหาชน)",
+    "shares": 261102300,
+    "percent": 24.9,
+    "book_close_date": "2026-04-17",
+    "updated_at": "2026-06-07T15:32:00.151885"
+  },
+  {
+    "symbol": "TCAP",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 84232594,
+    "percent": 8.03,
+    "book_close_date": "2026-04-17",
+    "updated_at": "2026-06-07T15:32:00.151885"
+  },
+  {
+    "symbol": "TCAP",
+    "sequence": 3,
+    "name": "นาย สมชาย ลิ้มถิรคุณ",
+    "shares": 26700000,
+    "percent": 2.55,
+    "book_close_date": "2026-04-17",
+    "updated_at": "2026-06-07T15:32:00.151885"
+  },
+  {
+    "symbol": "TCAP",
+    "sequence": 4,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 25502700,
+    "percent": 2.43,
+    "book_close_date": "2026-04-17",
+    "updated_at": "2026-06-07T15:32:00.151885"
+  },
+  {
+    "symbol": "TCAP",
+    "sequence": 5,
+    "name": "DBS BANK LTD. AC DBS NOMINEES-PB CLIENTS",
+    "shares": 20402341,
+    "percent": 1.95,
+    "book_close_date": "2026-04-17",
+    "updated_at": "2026-06-07T15:32:00.151885"
+  },
+  {
+    "symbol": "TIDLOR",
+    "sequence": 1,
+    "name": "ธนาคาร  กรุงศรีอยุธยา จำกัด (มหาชน)",
+    "shares": 1346993454,
+    "percent": 46.51,
+    "book_close_date": "2026-03-13",
+    "updated_at": "2026-06-07T15:32:00.550700"
+  },
+  {
+    "symbol": "TIDLOR",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 190098421,
+    "percent": 6.56,
+    "book_close_date": "2026-03-13",
+    "updated_at": "2026-06-07T15:32:00.550700"
+  },
+  {
+    "symbol": "TIDLOR",
+    "sequence": 3,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 98103266,
+    "percent": 3.39,
+    "book_close_date": "2026-03-13",
+    "updated_at": "2026-06-07T15:32:00.550700"
+  },
+  {
+    "symbol": "TIDLOR",
+    "sequence": 4,
+    "name": "9 BASIL PTE. LTD.",
+    "shares": 89237069,
+    "percent": 3.08,
+    "book_close_date": "2026-03-13",
+    "updated_at": "2026-06-07T15:32:00.550700"
+  },
+  {
+    "symbol": "TIDLOR",
+    "sequence": 5,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 58750051,
+    "percent": 2.03,
+    "book_close_date": "2026-03-13",
+    "updated_at": "2026-06-07T15:32:00.550700"
+  },
+  {
+    "symbol": "TISCO",
+    "sequence": 1,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 95723474,
+    "percent": 11.96,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:32:00.952998"
+  },
+  {
+    "symbol": "TISCO",
+    "sequence": 2,
+    "name": "CDIB & PARTNERS INVESTMENT HOLDING PTE.LTD.",
+    "shares": 80065320,
+    "percent": 10.0,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:32:00.952998"
+  },
+  {
+    "symbol": "TISCO",
+    "sequence": 3,
+    "name": "TOKYO CENTURY CORPORATION",
+    "shares": 39482767,
+    "percent": 4.93,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:32:00.952998"
+  },
+  {
+    "symbol": "TISCO",
+    "sequence": 4,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 26233695,
+    "percent": 3.28,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:32:00.952998"
+  },
+  {
+    "symbol": "TISCO",
+    "sequence": 5,
+    "name": "บริษัท  ทุนธนชาต จำกัด (มหาชน)",
+    "shares": 13480000,
+    "percent": 1.68,
+    "book_close_date": "2026-04-30",
+    "updated_at": "2026-06-07T15:32:00.952998"
+  },
+  {
+    "symbol": "TLI",
+    "sequence": 1,
+    "name": "บริษัท  วี.ซี.สมบัติ จำกัด",
+    "shares": 5818273600,
+    "percent": 50.81,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:32:01.351619"
+  },
+  {
+    "symbol": "TLI",
+    "sequence": 2,
+    "name": "N.C.B.TRUST LIMITED-CBNA LDN MEIJI YASUDA LIFE G-A 091",
+    "shares": 1946500000,
+    "percent": 17.0,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:32:01.351619"
+  },
+  {
+    "symbol": "TLI",
+    "sequence": 3,
+    "name": "HER SING (H.K.) LIMITED",
+    "shares": 641156000,
+    "percent": 5.6,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:32:01.351619"
+  },
+  {
+    "symbol": "TLI",
+    "sequence": 4,
+    "name": "BNP PARIBAS SINGAPORE BRANCH",
+    "shares": 221000000,
+    "percent": 1.93,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:32:01.351619"
+  },
+  {
+    "symbol": "TLI",
+    "sequence": 5,
+    "name": "กองทุนรวม  วายุภักษ์หนึ่ง",
+    "shares": 202764900,
+    "percent": 1.77,
+    "book_close_date": "2026-05-08",
+    "updated_at": "2026-06-07T15:32:01.351619"
+  },
+  {
+    "symbol": "TOP",
+    "sequence": 1,
+    "name": "บริษัท  ปตท. จำกัด (มหาชน)",
+    "shares": 1005920239,
+    "percent": 45.03,
+    "book_close_date": "2026-02-26",
+    "updated_at": "2026-06-07T15:32:01.751030"
+  },
+  {
+    "symbol": "TOP",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 257207519,
+    "percent": 11.51,
+    "book_close_date": "2026-02-26",
+    "updated_at": "2026-06-07T15:32:01.751030"
+  },
+  {
+    "symbol": "TOP",
+    "sequence": 3,
+    "name": "SOUTH EAST ASIA UK (TYPE C) NOMINEES LIMITED",
+    "shares": 75253279,
+    "percent": 3.37,
+    "book_close_date": "2026-02-26",
+    "updated_at": "2026-06-07T15:32:01.751030"
+  },
+  {
+    "symbol": "TOP",
+    "sequence": 4,
+    "name": "บริษัท  สยาม แมนเนจเม้นท์ โฮลดิ้ง จำกัด",
+    "shares": 66400499,
+    "percent": 2.97,
+    "book_close_date": "2026-02-26",
+    "updated_at": "2026-06-07T15:32:01.751030"
+  },
+  {
+    "symbol": "TOP",
+    "sequence": 5,
+    "name": "THE BANK OF NEW YORK MELLON",
+    "shares": 46697567,
+    "percent": 2.09,
+    "book_close_date": "2026-02-26",
+    "updated_at": "2026-06-07T15:32:01.751030"
+  },
+  {
+    "symbol": "TRUE",
+    "sequence": 1,
+    "name": "บริษัท  อไรซ์ ดิจิทัล เทคโนโลยี จำกัด",
+    "shares": 8620749150,
+    "percent": 24.95,
+    "book_close_date": "2026-05-21",
+    "updated_at": "2026-06-07T15:32:02.144372"
+  },
+  {
+    "symbol": "TRUE",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 4100453519,
+    "percent": 11.87,
+    "book_close_date": "2026-05-21",
+    "updated_at": "2026-06-07T15:32:02.144372"
+  },
+  {
+    "symbol": "TRUE",
+    "sequence": 3,
+    "name": "บริษัท  ซีพีเอช เทลโค จำกัด",
+    "shares": 3694389485,
+    "percent": 10.69,
+    "book_close_date": "2026-05-21",
+    "updated_at": "2026-06-07T15:32:02.144372"
+  },
+  {
+    "symbol": "TRUE",
+    "sequence": 4,
+    "name": "บริษัท  เครือเจริญโภคภัณฑ์ จำกัด",
+    "shares": 3122977035,
+    "percent": 9.04,
+    "book_close_date": "2026-05-21",
+    "updated_at": "2026-06-07T15:32:02.144372"
+  },
+  {
+    "symbol": "TRUE",
+    "sequence": 5,
+    "name": "CHINA MOBILE INTERNATIONAL HOLDINGS LIMITED",
+    "shares": 2698330341,
+    "percent": 7.81,
+    "book_close_date": "2026-05-21",
+    "updated_at": "2026-06-07T15:32:02.144372"
+  },
+  {
+    "symbol": "TTB",
+    "sequence": 1,
+    "name": "บริษัท  ทุนธนชาต จำกัด (มหาชน)",
+    "shares": 23782833043,
+    "percent": 24.37,
+    "book_close_date": "2026-04-28",
+    "updated_at": "2026-06-07T15:32:02.518547"
+  },
+  {
+    "symbol": "TTB",
+    "sequence": 2,
+    "name": "ING BANK N.V.",
+    "shares": 21164759420,
+    "percent": 21.69,
+    "book_close_date": "2026-04-28",
+    "updated_at": "2026-06-07T15:32:02.518547"
+  },
+  {
+    "symbol": "TTB",
+    "sequence": 3,
+    "name": "กระทรวงการคลัง",
+    "shares": 11364282005,
+    "percent": 11.65,
+    "book_close_date": "2026-04-28",
+    "updated_at": "2026-06-07T15:32:02.518547"
+  },
+  {
+    "symbol": "TTB",
+    "sequence": 4,
+    "name": "ธนาคาร  ทหารไทยธนชาต จำกัด (มหาชน)",
+    "shares": 5783412207,
+    "percent": 5.93,
+    "book_close_date": "2026-04-28",
+    "updated_at": "2026-06-07T15:32:02.518547"
+  },
+  {
+    "symbol": "TTB",
+    "sequence": 5,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 5546218537,
+    "percent": 5.68,
+    "book_close_date": "2026-04-28",
+    "updated_at": "2026-06-07T15:32:02.518547"
+  },
+  {
+    "symbol": "TU",
+    "sequence": 1,
+    "name": "บริษัท  ไทยยูเนี่ยน กรุ๊ป จำกัด (มหาชน)",
+    "shares": 400038900,
+    "percent": 9.4,
+    "book_close_date": "2026-03-04",
+    "updated_at": "2026-06-07T15:32:02.909662"
+  },
+  {
+    "symbol": "TU",
+    "sequence": 2,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 368387098,
+    "percent": 8.66,
+    "book_close_date": "2026-03-04",
+    "updated_at": "2026-06-07T15:32:02.909662"
+  },
+  {
+    "symbol": "TU",
+    "sequence": 3,
+    "name": "นาย ธีรพงศ์ จันศิริ",
+    "shares": 244068864,
+    "percent": 5.74,
+    "book_close_date": "2026-03-04",
+    "updated_at": "2026-06-07T15:32:02.909662"
+  },
+  {
+    "symbol": "TU",
+    "sequence": 4,
+    "name": "MITSUBISHI UFJ MORGAN STANLEY SECURITIES CO.,LTD.",
+    "shares": 238745120,
+    "percent": 5.61,
+    "book_close_date": "2026-03-04",
+    "updated_at": "2026-06-07T15:32:02.909662"
+  },
+  {
+    "symbol": "TU",
+    "sequence": 5,
+    "name": "นาย เชง นิรุตตินานนท์",
+    "shares": 200442084,
+    "percent": 4.71,
+    "book_close_date": "2026-03-04",
+    "updated_at": "2026-06-07T15:32:02.909662"
+  },
+  {
+    "symbol": "WHA",
+    "sequence": 1,
+    "name": "น.ส. จรีพร จารุกรสกุล",
+    "shares": 3510268969,
+    "percent": 23.49,
+    "book_close_date": "2026-05-12",
+    "updated_at": "2026-06-07T15:32:03.295408"
+  },
+  {
+    "symbol": "WHA",
+    "sequence": 2,
+    "name": "น.ส. ชัชชมนต์ อนันตประยูร",
+    "shares": 1355486105,
+    "percent": 9.07,
+    "book_close_date": "2026-05-12",
+    "updated_at": "2026-06-07T15:32:03.295408"
+  },
+  {
+    "symbol": "WHA",
+    "sequence": 3,
+    "name": "บริษัท  ไทยเอ็นวีดีอาร์ จำกัด",
+    "shares": 1071375062,
+    "percent": 7.17,
+    "book_close_date": "2026-05-12",
+    "updated_at": "2026-06-07T15:32:03.295408"
+  },
+  {
+    "symbol": "WHA",
+    "sequence": 4,
+    "name": "นาย นิติ โอสถานุเคราะห์",
+    "shares": 686810190,
+    "percent": 4.6,
+    "book_close_date": "2026-05-12",
+    "updated_at": "2026-06-07T15:32:03.295408"
+  },
+  {
+    "symbol": "WHA",
+    "sequence": 5,
+    "name": "นาย ชัยวัฒน์ พู่พิสุทธิ์",
+    "shares": 680290854,
+    "percent": 4.55,
+    "book_close_date": "2026-05-12",
+    "updated_at": "2026-06-07T15:32:03.295408"
+  }
+]
