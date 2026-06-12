@@ -6,16 +6,11 @@ import json
 from pathlib import Path
 
 FONT_PATH = Path(__file__).parent / "Sarabun-Regular.ttf"
-
-@st.cache_resource
-def setup_thai_font():
+if FONT_PATH.exists():
     fm.fontManager.addfont(str(FONT_PATH))
-    font_name = fm.FontProperties(fname=str(FONT_PATH)).get_name()
-    plt.rcParams["font.family"] = font_name
-    plt.rcParams["axes.unicode_minus"] = False
-    return font_name
+THAI_FONT = fm.FontProperties(fname=str(FONT_PATH)) if FONT_PATH.exists() else None
 
-setup_thai_font()
+plt.rcParams["axes.unicode_minus"] = False
 
 st.set_page_config(page_title="SET50 Shareholder Relationship Graph", layout="wide")
 st.title("SET50 Shareholder Relationship Network")
@@ -113,10 +108,10 @@ with col1:
         )
 
         labels = {n: n if len(n) <= 30 else n[:27] + "..." for n in H.nodes()}
-        nx.draw_networkx_labels(H, pos, labels=labels, font_size=7, ax=ax)
+        nx.draw_networkx_labels(H, pos, labels=labels, font_size=7, fontproperties=THAI_FONT if THAI_FONT else None, ax=ax)
 
-        ax.legend(fontsize=10)
-        ax.set_title("SET50 Shareholder Relationships (edge width = ownership %)", fontsize=14)
+        ax.legend(fontsize=10, prop=THAI_FONT if THAI_FONT else None)
+        ax.set_title("SET50 Shareholder Relationships (edge width = ownership %)", fontsize=14, fontproperties=THAI_FONT if THAI_FONT else None)
         ax.axis("off")
 
         st.pyplot(fig)
@@ -160,3 +155,4 @@ with col2:
                 st.write(f"Diameter (largest comp): {diam}")
             except nx.NetworkXError:
                 pass
+
